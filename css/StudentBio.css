@@ -1,26 +1,28 @@
 h2 {
    font-size: 24px;
-   margin: 0 Auto
+   margin: 0;
+   padding: 0;
 }
 
 p {
-    text-align: center;
+    text-align: auto;
     width: 400px;
+    float: auto
 }
 li {
     list-style-type: square;
-    color: darkblue
 }
 body {
      background-color: #efee7;
      font: 'Georgia,"Times New Roman",Times,serif';
      color: #333333;
      margin: 0;
-     padding: 0;   
+     padding: 100;   
 }
 header {
      background-color: darkgrey;
-
+     margin: 0;
+     padding: 0;
 }
 h1 {
     color: #eee;
@@ -33,11 +35,26 @@ h1 {
 }
 #bio-image {
     width: 200px;
-    margin: 10px;
+    margin: 20px;
 }
 #main-bio {
-    width: 70%
+    width: 70%;
+    margin: 0;
+    padding: 0;
 }
 .link {
-    color: crimson
+    color: blue
+}
+.contact-info {
+    width: 30%;
+    line-height: 1.5
+}
+.container,.contact-info {
+    background-color: rgba(238, 238, 238, 0.87);
+    margin:0;
+    padding: 0
+}
+div {
+    margin:0;
+    padding:0;
 }
