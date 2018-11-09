@@ -1,0 +1,43 @@
+h2 {
+   font-size: 24px;
+   margin: 0 Auto
+}
+
+p {
+    text-align: center;
+    width: 400px;
+}
+li {
+    list-style-type: square;
+    color: darkblue
+}
+body {
+     background-color: #efee7;
+     font: 'Georgia,"Times New Roman",Times,serif';
+     color: #333333;
+     margin: 0;
+     padding: 0;   
+}
+header {
+     background-color: darkgrey;
+
+}
+h1 {
+    color: #eee;
+    font-size: 28px;
+    margin: 0px;
+    padding: 0px
+}
+#contact-info, #main-bio, #bio-image {
+    float: left
+}
+#bio-image {
+    width: 200px;
+    margin: 10px;
+}
+#main-bio {
+    width: 70%
+}
+.link {
+    color: crimson
+}
